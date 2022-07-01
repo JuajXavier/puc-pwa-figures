@@ -1,10 +1,14 @@
 <!doctype html>
 <html lang="pt-br">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>
-    
+
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
     <!-- Abrir o link no navegador e salvar o conteúdo na pasta referente (css) -->
     <!-- Era: https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous"> se fosse rodar apenas online -->
 
@@ -12,17 +16,91 @@
     <link href="css/styles.css" rel="stylesheet">
 
     <title>Action Figure</title>
-  </head>
-  <body>
+</head>
 
-    <header></header>
+<body>
 
+    <header class="container-fluid fixed-top">
         <img src="images/logo.png" class="logo">
+    </header>
 
-    <main></main>
 
-    <footer></footer>
+    <main class="container">
+        <div class="row">
+            <div class="col-12">
+                <h2><span></span>One Piece</h2>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-4">
+
+                <div class="card">
+                    <img src="images/figure001.jpg" class="card-img-top" alt="Chopper">
+                    <div class="card-body">
+                        <h5 class="card-title">Chopper</h5>
+                        <p class="card-text">Action figure Chopper.</p>
+                        <div class="d-grid gap-2">
+                            <a href="#" class="btn btn-warning">Comprar</a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4">
+
+                <div class="card">
+                    <img src="images/figure001.jpg" class="card-img-top" alt="Chopper">
+                    <div class="card-body">
+                        <h5 class="card-title">Chopper</h5>
+                        <p class="card-text">Action figure Chopper.</p>
+                        <div class="d-grid gap-2">
+                            <a href="#" class="btn btn-warning">Comprar</a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4">
+
+                <div class="card">
+                    <img src="images/figure001.jpg" class="card-img-top" alt="Chopper">
+                    <div class="card-body">
+                        <h5 class="card-title">Chopper</h5>
+                        <p class="card-text">Action figure Chopper.</p>
+                        <div class="d-grid gap-2">
+                            <a href="#" class="btn btn-warning">Comprar</a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                <h2><span></span>Bleach</h2>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                <h2><span></span>Attack on Titan</h2>
+            </div>
+        </div>
+    </main>
+
+    <footer class="container-fluid fixed-bottom">
+        <div class="d-grid gap-2">
+            <button type="button" class="btn btn-warning">Instalar</button>
+        </div>
+    </footer>
 
     <script src="js/bootstrap.bundle.min.js"></script>
-  </body>
+</body>
+
 </html>
