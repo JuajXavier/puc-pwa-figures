@@ -1,0 +1,13 @@
+{
+"name": "Action Figure",
+"short_name": "Action Figure",
+"icons": [{
+    "src": "icons/128.png",
+    "sizes": "128x128",
+    "type": "image/png"
+}],
+"start_url": "index.html",
+"display": "standalone",
+"background_color": "#f8931d",
+"theme_color": "#f8931d"
+}
