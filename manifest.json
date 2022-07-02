@@ -2,8 +2,12 @@
 "name": "Action Figure",
 "short_name": "Action Figure",
 "icons": [{
-    "src": "icons/128.png",
-    "sizes": "128x128",
+    "src": "icons/144.png",
+    "sizes": "144x144",
+    "type": "image/png"
+}, {
+    "src": "icons/1024.png",
+    "sizes": "1024x1024",
     "type": "image/png"
 }],
 "start_url": "index.html",
