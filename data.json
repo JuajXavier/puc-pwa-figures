@@ -1,0 +1,53 @@
+[
+    {
+        "categoria":"One Piece 1",
+        "figures":[
+            {
+                "nome":"Chopper",
+                "imagem":"images/figure_001.jpg",
+                "whatsapp":"6199133884",
+                "valor":"R$ 150, 00"
+            },
+            {
+                "nome":"Zoro",
+                "imagem":"images/figure_002.jpg",
+                "whatsapp":"6199133884",
+                "valor":"R$ 120, 00"
+            }
+        ]
+    },
+    {
+        "categoria":"One Piece 2",
+        "figures":[
+            {
+                "nome":"Luffy Gear 5",
+                "imagem":"images/figure_003.jpg",
+                "whatsapp":"6199133884",
+                "valor":"R$ 180, 00"
+            },
+            {
+                "nome":"Mihawk",
+                "imagem":"images/figure_004.jpg",
+                "whatsapp":"6199133884",
+                "valor":"R$ 110, 00"
+            }
+        ]
+    },
+    {
+        "categoria":"One Piece 3",
+        "figures":[
+            {
+                "nome":"Yamato",
+                "imagem":"images/figure_005.jpg",
+                "whatsapp":"6199133884",
+                "valor":"R$ 205, 00"
+            },
+            {
+                "nome":"Zoro Pikachu",
+                "imagem":"images/figure_006.jpg",
+                "whatsapp":"6199133884",
+                "valor":"R$ 125, 00"
+            }
+        ]
+    }
+]
