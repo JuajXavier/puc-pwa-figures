@@ -42,12 +42,26 @@
 
     <footer class="container-fluid fixed-bottom">
         <div class="d-grid gap-2">
-            <button type="button" class="btn btn-warning">Instalar</button>
+            <button type="button" class="btn btn-warning" id="btInstall">Instalar</button>
         </div>
     </footer>
 
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/app.js"></script>
+
+    <script>
+        let swRegistration = null;
+
+        if('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                //arquivo a ser registrado no navegador como service worker
+                navigator.serviceWorker.register('serviceWorker.js').then((registro) => {
+                    console.log("SW registrado.")
+                    swRegistration = registro;
+                })
+            })
+        }
+    </script>
 </body>
 
 </html>
