@@ -4,14 +4,14 @@
         "figures":[
             {
                 "nome":"Chopper",
-                "imagem":"images/figure_001.jpg",
-                "whatsapp":"6199133884",
-                "valor":"R$ 150, 00"
+                "imagem":"images/figure001.jpg",
+                "whatsapp":"61991373884",
+                "valor":"R$ 165, 00"
             },
             {
                 "nome":"Zoro",
-                "imagem":"images/figure_002.jpg",
-                "whatsapp":"6199133884",
+                "imagem":"images/figure002.jpg",
+                "whatsapp":"61991373884",
                 "valor":"R$ 120, 00"
             }
         ]
@@ -21,14 +21,14 @@
         "figures":[
             {
                 "nome":"Luffy Gear 5",
-                "imagem":"images/figure_003.jpg",
-                "whatsapp":"6199133884",
+                "imagem":"images/figure003.jpg",
+                "whatsapp":"61991373884",
                 "valor":"R$ 180, 00"
             },
             {
                 "nome":"Mihawk",
-                "imagem":"images/figure_004.jpg",
-                "whatsapp":"6199133884",
+                "imagem":"images/figure004.jpg",
+                "whatsapp":"61991373884",
                 "valor":"R$ 110, 00"
             }
         ]
@@ -38,16 +38,22 @@
         "figures":[
             {
                 "nome":"Yamato",
-                "imagem":"images/figure_005.jpg",
-                "whatsapp":"6199133884",
+                "imagem":"images/figure005.jpg",
+                "whatsapp":"61991373884",
                 "valor":"R$ 205, 00"
             },
             {
                 "nome":"Zoro Pikachu",
-                "imagem":"images/figure_006.jpg",
-                "whatsapp":"6199133884",
+                "imagem":"images/figure006.jpg",
+                "whatsapp":"61991373884",
                 "valor":"R$ 125, 00"
             }
+        ]
+    },
+    {
+        "categoria":"Vazio",
+        "figures":[
+           
         ]
     }
 ]
