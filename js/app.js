@@ -20,11 +20,15 @@ ajax.onreadystatechange = function() {
 
           content.innerHTML = '<div class="alert alert-warning" role="alert">Desculpe! Não há figures cadastradas.</div>'
         } else {
-            // let htmlContent = "";
-            // for(let i = 0; i<jsonData.length; i++) {
-            //    htmlContent += `<div class="row"><div class="col-12"><h2><span></span>${jsonData[i].categoria}</h2></div></div>`
-            // }
-            // content.innerHTML = htmlContent;
+            let htmlContent = "";
+
+            for(let i = 0; i<jsonData.length; i++) {
+
+               htmlContent = `<div class="row"><div class="col-12"><h2><span></span>${jsonData[i].categoria}</h2></div></div>`
+        
+            }
+
+            content.innerHTML = htmlContent;
         }
     }
 }
